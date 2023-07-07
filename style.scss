@@ -12,10 +12,6 @@ body {
   --tg-chatbox-background: rgb(245 245 245);
 }
 
-* {
-  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
-
 .el-aside {
   background-color: var(--tg-panel-background) !important;
   color: rgb(162, 162, 162) !important;
@@ -262,7 +258,7 @@ html[theme=light] .vac-message-current.vac-message-selected {
 
 .vac-message-container--image .vac-message-selected .vac-image-tg-container .vac-image-tg-container__image img {
   // 亮 & 提高对比度
-  filter: brightness(1.5) contrast(1.5);
+  filter: brightness(1.5) contrast(0.5);
   transition: all 0.2s ease-in-out;
 }
 
